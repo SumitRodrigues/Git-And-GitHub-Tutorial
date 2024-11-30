@@ -1,0 +1,79 @@
+Git and GitHub Study Notes
+
+Introduction to Git
+
+Definition: Git is a distributed Version Control System that helps track and manage code changes over time. Each developer's computer has a complete copy of the codebase, including its entire history of changes 1.
+Importance: Essential for developers to manage code effectively, avoid chaos in version management, and collaborate seamlessly 2.
+Basic Concepts
+
+Repository (Repo): A folder that stores all versions of your code. If a folder is tracked by Git, it is called a repo 3.
+Branch: A parallel version of your project. The default branch is called main 4.
+Getting Started with Git
+
+Installation: Download Git for your operating system and install it 5.
+Configuration: Set up your name and email for tracking changes 6.
+Basic Commands
+
+Initialize a Repo: git init creates a new repository 7.
+Track Changes: Use git add <file> to track specific files or git add . to track all changes 8.
+Commit Changes: git commit -m "message" creates a snapshot of your project at a certain point 9.
+Viewing History
+
+Use git log to see the history of commits, including commit IDs, authors, and messages 10.
+Undoing Changes
+
+Checkout Previous Commits: Use git checkout <commit_hash> to view a previous state of your project 11.
+Revert Changes: Use git revert <commit_hash> to undo changes made in a specific commit 12.
+Collaboration with GitHub
+
+Remote Repositories: GitHub is a cloud platform for storing Git repositories online. A remote repo allows collaboration and syncing of project versions 13.
+Linking Local to Remote: Use git remote add origin <url> to link your local repo to a remote 14.
+Pushing Changes: Use git push origin main to upload local commits to the remote repository 15.
+Branching and Merging
+
+Creating a Branch: Use git branch <branch_name> to create a new branch 16.
+Merging Branches: Use git merge <branch_name> to combine changes from one branch into another 17.
+Handling Merge Conflicts
+
+Merge conflicts occur when two branches modify the same line of code. Git will require manual resolution 18.
+To resolve, edit the conflicting files, mark them as resolved, and commit the changes 19.
+Best Practices
+
+Write clear and concise commit messages in the imperative mood 20.
+Regularly pull changes from the remote repository to keep your local repo up to date 21.
+These notes cover the essential concepts and commands for using Git and GitHub effectively, providing a solid foundation for version control and collaboration in software development.
+
+Git Merge Conflicts and Resolution
+
+Merge Conflicts: When two different versions of code exist on different branches, Git expects the user to resolve the differences. This often occurs when multiple developers modify the same line of code simultaneously, leading to a merge conflict 22.
+
+Resolving Merge Conflicts:
+
+Checkout Main Branch: Start by checking out the main branch with git checkout main and pulling the latest changes using git pull 23.
+Merge Main into Your Branch: To identify conflicts, merge the main branch into your working branch using git merge main 24.
+Identify Conflicts: After the merge command, Git will indicate which files have conflicts, typically marked in the code editor 25.
+Using Code Editors: Most code editors provide a visual interface to resolve conflicts. For example, in WebStorm, you can see changes from both branches side by side, allowing you to choose which code to keep 26.
+
+Finalizing the Merge: After resolving conflicts, stage the changes using git add ., commit with a message like git commit -m "resolve merge conflicts", and push the changes back to the remote repository 27.
+
+Git Reset and Revert Commands
+
+Git Reset: This command allows you to move back to a previous commit while deciding whether to keep or discard changes. There are three types:
+
+Soft Reset: Moves to a specified commit but keeps changes staged 28.
+Mixed Reset: Moves to a commit and unstages changes, keeping them in the working directory 29.
+Hard Reset: Discards all changes made after the specified commit 29.
+Git Revert: This command allows you to undo changes from a specific commit without losing the commit history. It creates a new commit that reverses the changes made by the specified commit 30.
+
+Using Git Stash
+
+Stashing Changes: If you need to switch tasks but have uncommitted changes, you can use git stash to temporarily save your work 31. Later, you can retrieve your changes with git stash apply.
+Graphical User Interface (GUI) for Git
+
+Using WebStorm: WebStorm provides a user-friendly GUI for Git operations, allowing you to perform actions like commits, merges, and pull requests without memorizing commands. You can create branches, push changes, and view commit history visually 32.
+
+Creating Pull Requests: You can create pull requests directly from WebStorm, allowing for easy code reviews and merges 33.
+
+Cherry Picking: This advanced technique allows you to select specific commits from one branch to apply to another, providing flexibility in managing changes 34.
+
+Conclusion: Mastering Git commands and utilizing GUI tools like WebStorm can significantly enhance your productivity and efficiency in version control, making it easier to manage code changes and collaborate with others.
