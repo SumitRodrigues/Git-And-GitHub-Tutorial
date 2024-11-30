@@ -1,9 +1,5 @@
 # Git-And-GitHub-Tutorial
 
-Here is the README file in a format suitable for GitHub:
-
-# Project Title
-
 **Description**  
 Provide a clear and concise description of your project. Explain the purpose, functionality, and how it solves a problem or provides value to users.
 
@@ -34,7 +30,7 @@ Provide a clear and concise description of your project. Explain the purpose, fu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/your-repository.git
+   git clone https://github.com/SumitRodrigues/Git-And-GitHub-Tutorial.git
 
 	2.	Navigate to the project directory:
 
