@@ -20,7 +20,7 @@ Installation
 
 	1.	Clone the repository:
 
-git clone https://github.com/YourUsername/your-repository.git
+git clone [https://github.com/YourUsername/your-repository.git](https://github.com/SumitRodrigues/Git-And-GitHub-Tutorial.git)
 
 
 	2.	Navigate to the project directory:
