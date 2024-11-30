@@ -45,7 +45,7 @@ Provide a clear and concise description of your project. Explain the purpose, fu
    or
    yarn install
 
-Usage
+## Usage
 
 Running the Project Locally
 
@@ -68,7 +68,7 @@ To keep the project in a manageable state, it’s essential to follow best pract
 - Bugfix branch example: bugfix/fix-header-alignment
 - Merging: Before merging, rebase your branch or merge the main branch to avoid conflicts.
 
-Contributing
+## Contributing
 
 We welcome contributions! To contribute, follow these steps:
 1. Fork the repository.
@@ -78,6 +78,6 @@ We welcome contributions! To contribute, follow these steps:
 5. Push to your branch (git push origin feature/feature-name).
 6. Open a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
