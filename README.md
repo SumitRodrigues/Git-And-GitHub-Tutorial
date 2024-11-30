@@ -32,42 +32,41 @@ Provide a clear and concise description of your project. Explain the purpose, fu
    ```bash
    git clone https://github.com/SumitRodrigues/Git-And-GitHub-Tutorial.git
 
-	2.	Navigate to the project directory:
 
-cd your-repository
+2. Navigate to the project directory:
 
+   ```bash
+   cd your-repository
 
-	3.	Install dependencies (if applicable):
+3. Install dependencies (if applicable):
 
-npm install
-
-or
-
-yarn install
+   ```bash
+   npm install
+   or
+   yarn install
 
 Usage
 
 Running the Project Locally
 
-	1.	Start the development server:
+1. Start the development server:
 
-npm start
+    ```bash
+    npm start
+    or
+    yarn start
 
-or
+2. Open your browser and navigate to http://localhost:3000.
 
-yarn start
-
-
-	2.	Open your browser and navigate to http://localhost:3000.
-
-Git Workflow
+   ```bash
+   Git Workflow
 
 To keep the project in a manageable state, it’s essential to follow best practices when interacting with the repository:
-	•	Commit Frequently: Make small and frequent commits to track incremental changes.
-	•	Branching: Use branches for features, bugs, and hotfixes.
-	•	Feature branch example: feature/add-login
-	•	Bugfix branch example: bugfix/fix-header-alignment
-	•	Merging: Before merging, rebase your branch or merge the main branch to avoid conflicts.
+- Commit Frequently: Make small and frequent commits to track incremental changes.
+- Branching: Use branches for features, bugs, and hotfixes.
+- Feature branch example: feature/add-login
+- Bugfix branch example: bugfix/fix-header-alignment
+- Merging: Before merging, rebase your branch or merge the main branch to avoid conflicts.
 
 Contributing
 
