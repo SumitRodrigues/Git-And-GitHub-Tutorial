@@ -1,3 +1,5 @@
 - Git is a distributed Version Control System.
 - Version Control helps you track and manage code changes over time, while distributed means every developer's computer has a complete copy of the codebase including its 
 history of changes and information about who changed what and when!
+- Git handles everything inside the repo, like commit history, branches, remote repos, etc.
+- Main is the default branch name of your repo created by Git.
